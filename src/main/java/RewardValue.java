@@ -10,7 +10,7 @@ public class RewardValue {
         this.cashValue = convertToCash(milesValue);
     }
 
-    private static int convertToMiles(double cashValue ){
+    private static int convertToMiles(double cashValue){
         return (int) (cashValue / MILES_TO_CASH);
     }
 
